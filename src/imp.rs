@@ -48,5 +48,10 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("typeParameter"), palette.teal());
 
     builder.add_rule(Semantic("string"), palette.green());
+    builder.add_rules(
+        &[Semantic("escapeSequence"), Semantic("formatSpecifier")],
+        palette.orange(),
+    );
+
     builder.add_rule(Semantic("number"), palette.blue());
 }

@@ -60,6 +60,14 @@
 			"foreground": "#6A8759",
 			"fontStyle": ""
 		},
+		"escapeSequence": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"formatSpecifier": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
 		"number": {
 			"foreground": "#6897BB",
 			"fontStyle": ""
