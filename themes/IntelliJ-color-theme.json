@@ -83,6 +83,10 @@
 			"foreground": "#6897BB",
 			"fontStyle": ""
 		},
+		"comment.documentation": {
+			"foreground": "#629755",
+			"italic": true
+		},
 		"lifetime": {
 			"foreground": "#20999D",
 			"italic": true
