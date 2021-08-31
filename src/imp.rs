@@ -19,6 +19,19 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("keyword"), palette.orange());
 
+    builder.add_rules(
+        &[
+            Semantic("function.declaration"),
+            Semantic("method.declaration"),
+        ],
+        palette.yellow(),
+    );
+    builder.add_rules(
+        &[Semantic("function.trait"), Semantic("method.trait")],
+        (palette.yellow(), FontStyle::Italic),
+    );
+    builder.add_rule(Semantic("method.static"), FontStyle::Italic);
+
     builder.add_rule(Semantic("string"), palette.green());
     builder.add_rule(Semantic("number"), palette.blue());
 }

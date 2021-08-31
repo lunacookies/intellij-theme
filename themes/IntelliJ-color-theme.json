@@ -13,6 +13,25 @@
 			"foreground": "#CC7832",
 			"fontStyle": ""
 		},
+		"function.declaration": {
+			"foreground": "#FFC66D",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#FFC66D",
+			"fontStyle": ""
+		},
+		"function.trait": {
+			"foreground": "#FFC66D",
+			"italic": true
+		},
+		"method.trait": {
+			"foreground": "#FFC66D",
+			"italic": true
+		},
+		"method.static": {
+			"italic": true
+		},
 		"string": {
 			"foreground": "#6A8759",
 			"fontStyle": ""
