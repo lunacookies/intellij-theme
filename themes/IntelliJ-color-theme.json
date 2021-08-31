@@ -32,6 +32,10 @@
 		"method.static": {
 			"italic": true
 		},
+		"property": {
+			"foreground": "#9876AA",
+			"fontStyle": ""
+		},
 		"string": {
 			"foreground": "#6A8759",
 			"fontStyle": ""

@@ -32,6 +32,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
     builder.add_rule(Semantic("method.static"), FontStyle::Italic);
 
+    builder.add_rule(Semantic("property"), palette.purple());
+
     builder.add_rule(Semantic("string"), palette.green());
     builder.add_rule(Semantic("number"), palette.blue());
 }
