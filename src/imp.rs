@@ -90,6 +90,11 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         "editorLineNumber.activeForeground",
         palette.base(BaseScale::FadedFg),
     );
+
+    builder.add_workspace_rules(
+        &["sideBar.background", "activityBar.background"],
+        palette.base(BaseScale::BrightBg),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {

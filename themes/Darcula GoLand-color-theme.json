@@ -9,7 +9,9 @@
 		"editor.lineHighlightBackground": "#313132",
 		"editorGutter.background": "#323333",
 		"editorLineNumber.foreground": "#60666C",
-		"editorLineNumber.activeForeground": "#919CA8"
+		"editorLineNumber.activeForeground": "#919CA8",
+		"sideBar.background": "#3C3E40",
+		"activityBar.background": "#3C3E40"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
