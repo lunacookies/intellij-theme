@@ -33,6 +33,9 @@
 			"foreground": "#FFC66D",
 			"italic": true
 		},
+		"function": {
+			"italic": true
+		},
 		"method.static": {
 			"italic": true
 		},

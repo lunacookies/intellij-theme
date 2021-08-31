@@ -33,7 +33,10 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         &[Semantic("function.trait"), Semantic("method.trait")],
         (palette.yellow(), FontStyle::Italic),
     );
-    builder.add_rule(Semantic("method.static"), FontStyle::Italic);
+    builder.add_rules(
+        &[Semantic("function"), Semantic("method.static")],
+        FontStyle::Italic,
+    );
 
     builder.add_rule(Semantic("property"), palette.purple());
     builder.add_rules(
