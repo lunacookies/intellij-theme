@@ -63,6 +63,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rule(Semantic("number"), palette.blue());
 
+    builder.add_rule(Semantic("comment"), palette.base(BaseScale::DarkFg));
     builder.add_rule(
         Semantic("comment.documentation"),
         (palette.bright_green(), FontStyle::Italic),
