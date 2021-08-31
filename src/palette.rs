@@ -93,7 +93,10 @@ impl BaseScale {
     }
 
     fn chroma(self) -> f32 {
-        lerp(self.value(), 0.0..0.0266)
+        match self {
+            Self::Bg | Self::LightBg | Self::LightFg => 0.0,
+            _ => lerp(self.value(), 0.0..0.0266),
+        }
     }
 
     fn value(self) -> f32 {

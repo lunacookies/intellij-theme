@@ -69,10 +69,8 @@ pub(crate) fn add_rules_last(builder: &mut ThemeBuilder) {
 
 fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_workspace_rule("editor.background", palette.base(BaseScale::Bg));
-    builder.add_workspace_rules(
-        &["editor.foreground", "foreground"],
-        palette.base(BaseScale::Fg),
-    );
+    builder.add_workspace_rule("editor.foreground", palette.base(BaseScale::Fg));
+    builder.add_workspace_rule("foreground", palette.base(BaseScale::LightFg));
 
     builder.add_workspace_rule(
         "editor.lineHighlightBackground",
