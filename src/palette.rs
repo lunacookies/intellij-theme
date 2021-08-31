@@ -12,12 +12,24 @@ impl Palette {
         oklch(0.6524916, 0.13345489, 56.723343)
     }
 
+    pub(crate) fn dark_orange(&self) -> Oklch {
+        oklch(0.793238, 0.11389914, 75.47327)
+    }
+
     pub(crate) fn orange(&self) -> Oklch {
         oklch(0.860106, 0.12477315, 76.95581)
     }
 
+    pub(crate) fn tan(&self) -> Oklch {
+        oklch(0.703477, 0.054352857, 83.247955)
+    }
+
     pub(crate) fn yellow(&self) -> Oklch {
         oklch(0.75477606, 0.15031359, 106.93401)
+    }
+
+    pub(crate) fn avocado(&self) -> Oklch {
+        oklch(0.7766038, 0.08857281, 119.78649)
     }
 
     pub(crate) fn green(&self) -> Oklch {
@@ -30,6 +42,14 @@ impl Palette {
 
     pub(crate) fn teal(&self) -> Oklch {
         oklch(0.62310046, 0.09924307, 198.42546)
+    }
+
+    pub(crate) fn cyan(&self) -> Oklch {
+        oklch(0.7159551, 0.06853732, 213.10477)
+    }
+
+    pub(crate) fn deep_blue(&self) -> Oklch {
+        oklch(0.71396226, 0.12099062, 237.75323)
     }
 
     pub(crate) fn blue(&self) -> Oklch {

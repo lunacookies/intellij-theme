@@ -1,0 +1,209 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "Darcula GoLand",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2B2B2B",
+		"editor.foreground": "#A8B6C5",
+		"foreground": "#A8B6C5"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"comma": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"semicolon": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"function.declaration": {
+			"foreground": "#E6B163",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#E6B163",
+			"fontStyle": ""
+		},
+		"function.trait": {
+			"foreground": "#B09D79",
+			"fontStyle": ""
+		},
+		"method.trait": {
+			"foreground": "#B09D79",
+			"fontStyle": ""
+		},
+		"function": {
+			"foreground": "#B09D79",
+			"fontStyle": ""
+		},
+		"method.static": {
+			"foreground": "#B09D79",
+			"fontStyle": ""
+		},
+		"property": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"variable.constant": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"variable.static": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"enumMember": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"typeParameter": {
+			"foreground": "#20999D",
+			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#6A8759",
+			"fontStyle": ""
+		},
+		"character": {
+			"foreground": "#6A8759",
+			"fontStyle": ""
+		},
+		"escapeSequence": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"formatSpecifier": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#6897BB",
+			"fontStyle": ""
+		},
+		"comment": {
+			"foreground": "#79828B",
+			"fontStyle": ""
+		},
+		"comment.documentation": {
+			"foreground": "#629755",
+			"italic": true
+		},
+		"macro": {
+			"bold": true,
+			"italic": true
+		},
+		"lifetime": {
+			"foreground": "#20999D",
+			"italic": true
+		},
+		"label": {
+			"foreground": "#467CDA",
+			"fontStyle": ""
+		},
+		"macro.attribute": {
+			"foreground": "#BBB529",
+			"fontStyle": ""
+		},
+		"builtinAttribute.attribute": {
+			"foreground": "#BBB529",
+			"fontStyle": ""
+		},
+		"method": {
+			"foreground": "#B09D79",
+			"fontStyle": ""
+		},
+		"function.trait.declaration": {
+			"foreground": "#E6B163",
+			"fontStyle": ""
+		},
+		"method.trait.declaration": {
+			"foreground": "#E6B163",
+			"fontStyle": ""
+		},
+		"method.static.declaration": {
+			"foreground": "#E6B163",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"type": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"class": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"union": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#6FAFBD",
+			"fontStyle": ""
+		},
+		"type.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"class.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"struct.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"enum.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"union.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"interface.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"typeAlias.declaration": {
+			"foreground": "#A8B6C5",
+			"fontStyle": ""
+		},
+		"selfKeyword": {
+			"foreground": "#4EADE5",
+			"fontStyle": ""
+		},
+		"namespace": {
+			"foreground": "#AFBF7E",
+			"fontStyle": ""
+		},
+		"*.mutable": {
+			"underline": true
+		}
+	},
+	"tokenColors": []
+}

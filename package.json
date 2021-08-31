@@ -23,6 +23,11 @@
         "label": "Darcula",
         "uiTheme": "vs-dark",
         "path": "./themes/Darcula-color-theme.json"
+      },
+      {
+        "label": "Darcula GoLand",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Darcula GoLand-color-theme.json"
       }
     ]
   }
