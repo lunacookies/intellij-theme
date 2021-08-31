@@ -115,6 +115,10 @@
 			"foreground": "#BBB529",
 			"fontStyle": ""
 		},
+		"unresolvedReference": {
+			"foreground": "#BC3F3C",
+			"fontStyle": ""
+		},
 		"*.mutable": {
 			"underline": true
 		}

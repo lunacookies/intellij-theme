@@ -117,6 +117,10 @@
 			"foreground": "#BBB529",
 			"fontStyle": ""
 		},
+		"unresolvedReference": {
+			"foreground": "#BC3F3C",
+			"fontStyle": ""
+		},
 		"method": {
 			"foreground": "#B09D79",
 			"fontStyle": ""

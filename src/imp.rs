@@ -143,4 +143,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.yellow(),
     );
+
+    builder.add_rule(Semantic("unresolvedReference"), palette.red());
 }
