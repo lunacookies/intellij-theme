@@ -16,6 +16,10 @@
 		"string": {
 			"foreground": "#6A8759",
 			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#6897BB",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
