@@ -82,6 +82,14 @@
 		"number": {
 			"foreground": "#6897BB",
 			"fontStyle": ""
+		},
+		"lifetime": {
+			"foreground": "#20999D",
+			"italic": true
+		},
+		"label": {
+			"foreground": "#467CDA",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

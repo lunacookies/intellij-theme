@@ -62,4 +62,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_rule(Semantic("number"), palette.blue());
+
+    builder.add_rule(Semantic("lifetime"), (palette.teal(), FontStyle::Italic));
+    builder.add_rule(Semantic("label"), palette.bright_blue());
 }
