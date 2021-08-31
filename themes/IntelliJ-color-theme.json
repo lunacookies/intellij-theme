@@ -3,9 +3,9 @@
 	"name": "IntelliJ",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#030303",
-		"editor.foreground": "#DEDEDE",
-		"foreground": "#DEDEDE"
+		"editor.background": "#2B2B2B",
+		"editor.foreground": "#A8B6C5",
+		"foreground": "#A8B6C5"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {},
