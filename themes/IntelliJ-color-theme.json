@@ -95,6 +95,10 @@
 			"foreground": "#629755",
 			"italic": true
 		},
+		"macro": {
+			"bold": true,
+			"italic": true
+		},
 		"lifetime": {
 			"foreground": "#20999D",
 			"italic": true
