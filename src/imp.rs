@@ -24,7 +24,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("comma"),
             Semantic("semicolon"),
         ],
-        palette.orange(),
+        palette.brown(),
     );
 
     builder.add_rules(
@@ -32,11 +32,11 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("function.declaration"),
             Semantic("method.declaration"),
         ],
-        palette.yellow(),
+        palette.orange(),
     );
     builder.add_rules(
         &[Semantic("function.trait"), Semantic("method.trait")],
-        (palette.yellow(), FontStyle::Italic),
+        (palette.orange(), FontStyle::Italic),
     );
     builder.add_rules(
         &[Semantic("function"), Semantic("method.static")],
@@ -58,7 +58,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("string"), palette.green());
     builder.add_rules(
         &[Semantic("escapeSequence"), Semantic("formatSpecifier")],
-        palette.orange(),
+        palette.brown(),
     );
 
     builder.add_rule(Semantic("number"), palette.blue());
