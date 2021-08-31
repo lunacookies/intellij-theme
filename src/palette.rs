@@ -72,6 +72,7 @@ impl Palette {
 #[derive(Debug, Clone, Copy)]
 pub(crate) enum BaseScale {
     Bg,
+    LightBg,
     DarkFg,
     Fg,
 }
@@ -88,6 +89,7 @@ impl BaseScale {
     fn value(self) -> f32 {
         match self {
             Self::Bg => 0.0,
+            Self::LightBg => 0.05,
             Self::DarkFg => 0.65,
             Self::Fg => 1.0,
         }
