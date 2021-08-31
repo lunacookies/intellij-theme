@@ -20,9 +20,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "IntelliJ",
+        "label": "Darcula",
         "uiTheme": "vs-dark",
-        "path": "./themes/IntelliJ-color-theme.json"
+        "path": "./themes/Darcula-color-theme.json"
       }
     ]
   }
