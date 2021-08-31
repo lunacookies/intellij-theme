@@ -111,6 +111,22 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::LightFg),
     );
     builder.add_workspace_rule("tab.activeBorderTop", palette.ui_blue());
+
+    builder.add_workspace_rules(
+        &[
+            "sideBar.border",
+            "activityBar.border",
+            "editorGroup.border",
+            "editorGroupHeader.border",
+            "panel.border",
+            "statusBar.border",
+        ],
+        palette.base(BaseScale::LightBg),
+    );
+    builder.add_workspace_rule(
+        "editorOverviewRuler.border",
+        palette.base(BaseScale::BrightBg),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {

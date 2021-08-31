@@ -19,7 +19,14 @@
 		"tab.hoverBackground": "#313132",
 		"tab.inactiveForeground": "#AFBECE",
 		"tab.activeForeground": "#AFBECE",
-		"tab.activeBorderTop": "#4B8ACA"
+		"tab.activeBorderTop": "#4B8ACA",
+		"sideBar.border": "#313132",
+		"activityBar.border": "#313132",
+		"editorGroup.border": "#313132",
+		"editorGroupHeader.border": "#313132",
+		"panel.border": "#313132",
+		"statusBar.border": "#313132",
+		"editorOverviewRuler.border": "#3C3E40"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
