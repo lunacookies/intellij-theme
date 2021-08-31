@@ -7,7 +7,9 @@
 		"editor.foreground": "#A8B6C5",
 		"foreground": "#A8B6C5",
 		"editor.lineHighlightBackground": "#313132",
-		"editorGutter.background": "#323333"
+		"editorGutter.background": "#323333",
+		"editorLineNumber.foreground": "#60666C",
+		"editorLineNumber.activeForeground": "#919CA8"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {

@@ -82,6 +82,14 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         "editorGutter.background",
         palette.base(BaseScale::LighterBg),
     );
+    builder.add_workspace_rule(
+        "editorLineNumber.foreground",
+        palette.base(BaseScale::DarkerFg),
+    );
+    builder.add_workspace_rule(
+        "editorLineNumber.activeForeground",
+        palette.base(BaseScale::FadedFg),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
