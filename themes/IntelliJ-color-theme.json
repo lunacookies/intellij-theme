@@ -36,6 +36,10 @@
 			"foreground": "#9876AA",
 			"fontStyle": ""
 		},
+		"typeParameter": {
+			"foreground": "#20999D",
+			"fontStyle": ""
+		},
 		"string": {
 			"foreground": "#6A8759",
 			"fontStyle": ""
