@@ -36,6 +36,18 @@
 			"foreground": "#9876AA",
 			"fontStyle": ""
 		},
+		"variable.constant": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"variable.static": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"enumMember": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
 		"typeParameter": {
 			"foreground": "#20999D",
 			"fontStyle": ""

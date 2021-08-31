@@ -33,6 +33,14 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("method.static"), FontStyle::Italic);
 
     builder.add_rule(Semantic("property"), palette.purple());
+    builder.add_rules(
+        &[
+            Semantic("variable.constant"),
+            Semantic("variable.static"),
+            Semantic("enumMember"),
+        ],
+        (palette.purple(), FontStyle::Italic),
+    );
 
     builder.add_rule(Semantic("typeParameter"), palette.teal());
 
