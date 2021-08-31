@@ -11,7 +11,15 @@
 		"editorLineNumber.foreground": "#60666C",
 		"editorLineNumber.activeForeground": "#919CA8",
 		"sideBar.background": "#3C3E40",
-		"activityBar.background": "#3C3E40"
+		"activityBar.background": "#3C3E40",
+		"tab.inactiveBackground": "#3C3E40",
+		"editorGroupHeader.tabsBackground": "#3C3E40",
+		"tab.border": "#3C3E40",
+		"tab.activeBackground": "#4E5155",
+		"tab.hoverBackground": "#313132",
+		"tab.inactiveForeground": "#AFBECE",
+		"tab.activeForeground": "#AFBECE",
+		"tab.activeBorderTop": "#4B8ACA"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {

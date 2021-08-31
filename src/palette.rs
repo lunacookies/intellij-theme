@@ -8,6 +8,10 @@ impl Palette {
         oklch(scale.lightness(), scale.chroma(), 250.0)
     }
 
+    pub(crate) fn ui_blue(&self) -> Oklch {
+        oklch(0.61989343, 0.117343895, 250.59079)
+    }
+
     pub(crate) fn red(&self) -> Oklch {
         oklch(0.5454982, 0.16140655, 25.423063)
     }
@@ -75,10 +79,12 @@ pub(crate) enum BaseScale {
     LightBg,
     LighterBg,
     BrightBg,
+    BrighterBg,
     DarkerFg,
     DarkFg,
     FadedFg,
     Fg,
+    LightFg,
 }
 
 impl BaseScale {
@@ -96,10 +102,12 @@ impl BaseScale {
             Self::LightBg => 0.05,
             Self::LighterBg => 0.06,
             Self::BrightBg => 0.15,
+            Self::BrighterBg => 0.3,
             Self::DarkerFg => 0.45,
             Self::DarkFg => 0.65,
             Self::FadedFg => 0.83,
             Self::Fg => 1.0,
+            Self::LightFg => 1.05,
         }
     }
 }
