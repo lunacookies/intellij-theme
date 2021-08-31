@@ -1,5 +1,5 @@
 use std::ops::Range;
-use tincture::{ColorSpace, Hue, Oklch};
+use tincture::{Hue, Oklch};
 
 pub(crate) struct Palette;
 
