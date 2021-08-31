@@ -17,6 +17,14 @@
 			"foreground": "#CC7832",
 			"fontStyle": ""
 		},
+		"comma": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"semicolon": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
 		"function.declaration": {
 			"foreground": "#FFC66D",
 			"fontStyle": ""
