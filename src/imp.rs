@@ -114,6 +114,16 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_workspace_rules(
         &[
+            "statusBar.background",
+            "statusBar.debuggingBackground",
+            "statusBar.noFolderBackground",
+        ],
+        palette.base(BaseScale::BrightBg),
+    );
+    builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::LightFg));
+
+    builder.add_workspace_rules(
+        &[
             "sideBar.border",
             "activityBar.border",
             "editorGroup.border",
