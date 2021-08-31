@@ -6,7 +6,8 @@
 		"editor.background": "#2B2B2B",
 		"editor.foreground": "#A8B6C5",
 		"foreground": "#A8B6C5",
-		"editor.lineHighlightBackground": "#313132"
+		"editor.lineHighlightBackground": "#313132",
+		"editorGutter.background": "#323333"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {

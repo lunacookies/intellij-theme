@@ -78,6 +78,10 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         "editor.lineHighlightBackground",
         palette.base(BaseScale::LightBg),
     );
+    builder.add_workspace_rule(
+        "editorGutter.background",
+        palette.base(BaseScale::LighterBg),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
