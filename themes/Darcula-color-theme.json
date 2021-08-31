@@ -26,12 +26,10 @@
 			"fontStyle": ""
 		},
 		"function.declaration": {
-			"foreground": "#FFC66D",
-			"fontStyle": ""
+			"foreground": "#FFC66D"
 		},
 		"method.declaration": {
-			"foreground": "#FFC66D",
-			"fontStyle": ""
+			"foreground": "#FFC66D"
 		},
 		"function.trait": {
 			"foreground": "#FFC66D",

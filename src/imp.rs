@@ -91,7 +91,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("function.declaration"),
             Semantic("method.declaration"),
         ],
-        palette.orange(),
+        (palette.orange(), FontStyle::Inherit),
     );
     builder.add_rules(
         &[Semantic("function.trait"), Semantic("method.trait")],
