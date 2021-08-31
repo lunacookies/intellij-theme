@@ -20,6 +20,8 @@
 		"tab.inactiveForeground": "#BCBCBC",
 		"tab.activeForeground": "#BCBCBC",
 		"tab.activeBorderTop": "#4B8ACA",
+		"editorWidget.background": "#45484B",
+		"editorWidget.border": "#45484B",
 		"statusBar.background": "#3C3E40",
 		"statusBar.debuggingBackground": "#3C3E40",
 		"statusBar.noFolderBackground": "#3C3E40",

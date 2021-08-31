@@ -102,13 +102,18 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.base(BaseScale::BrightBg),
     );
-    builder.add_workspace_rule("tab.activeBackground", palette.base(BaseScale::BrighterBg));
+    builder.add_workspace_rule("tab.activeBackground", palette.base(BaseScale::BrightestBg));
     builder.add_workspace_rule("tab.hoverBackground", palette.base(BaseScale::LightBg));
     builder.add_workspace_rules(
         &["tab.inactiveForeground", "tab.activeForeground"],
         palette.base(BaseScale::LightFg),
     );
     builder.add_workspace_rule("tab.activeBorderTop", palette.ui_blue());
+
+    builder.add_workspace_rules(
+        &["editorWidget.background", "editorWidget.border"],
+        palette.base(BaseScale::BrighterBg),
+    );
 
     builder.add_workspace_rules(
         &[
