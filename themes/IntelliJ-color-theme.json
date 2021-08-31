@@ -13,6 +13,10 @@
 			"foreground": "#CC7832",
 			"fontStyle": ""
 		},
+		"boolean": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
 		"function.declaration": {
 			"foreground": "#FFC66D",
 			"fontStyle": ""
