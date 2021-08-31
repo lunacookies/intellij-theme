@@ -12,6 +12,10 @@
 		"keyword": {
 			"foreground": "#CC7832",
 			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#6A8759",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
