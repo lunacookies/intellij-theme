@@ -1,0 +1,13 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "IntelliJ",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#030303",
+		"editor.foreground": "#DEDEDE",
+		"foreground": "#DEDEDE"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {},
+	"tokenColors": []
+}
