@@ -110,6 +110,9 @@
 		"builtinAttribute.attribute": {
 			"foreground": "#BBB529",
 			"fontStyle": ""
+		},
+		"*.mutable": {
+			"underline": true
 		}
 	},
 	"tokenColors": []
