@@ -90,6 +90,14 @@
 		"label": {
 			"foreground": "#467CDA",
 			"fontStyle": ""
+		},
+		"macro.attribute": {
+			"foreground": "#BBB529",
+			"fontStyle": ""
+		},
+		"builtinAttribute.attribute": {
+			"foreground": "#BBB529",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
