@@ -28,6 +28,11 @@
         "label": "Darcula GoLand",
         "uiTheme": "vs-dark",
         "path": "./themes/Darcula GoLand-color-theme.json"
+      },
+      {
+        "label": "Darcula CLion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Darcula CLion-color-theme.json"
       }
     ]
   }

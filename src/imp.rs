@@ -63,6 +63,39 @@ pub(crate) fn add_rules_goland(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("namespace"), palette.avocado());
 }
 
+pub(crate) fn add_rules_clion(builder: &mut ThemeBuilder, palette: &Palette) {
+    builder.add_rules(
+        &[
+            Semantic("function"),
+            Semantic("function.trait"),
+            Semantic("method.trait"),
+            Semantic("method.static"),
+        ],
+        palette.base(BaseScale::Fg),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("type"),
+            Semantic("class"),
+            Semantic("struct"),
+            Semantic("enum"),
+            Semantic("union"),
+            Semantic("interface"),
+            Semantic("builtinType"),
+            Semantic("namespace"),
+        ],
+        palette.lavender(),
+    );
+
+    builder.add_rules(
+        &[Semantic("typeAlias"), Semantic("typeParameter")],
+        palette.pale_lavender(),
+    );
+
+    builder.add_rule(Semantic("macro"), palette.yellow());
+}
+
 pub(crate) fn add_rules_last(builder: &mut ThemeBuilder) {
     builder.add_rule(Semantic("*.mutable"), FontStyle::Underline);
 }
