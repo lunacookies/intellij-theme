@@ -128,10 +128,6 @@
 			"foreground": "#6A8759",
 			"fontStyle": ""
 		},
-		"character": {
-			"foreground": "#6A8759",
-			"fontStyle": ""
-		},
 		"escapeSequence": {
 			"foreground": "#CC7832",
 			"fontStyle": ""
@@ -141,6 +137,10 @@
 			"fontStyle": ""
 		},
 		"number": {
+			"foreground": "#6897BB",
+			"fontStyle": ""
+		},
+		"character": {
 			"foreground": "#6897BB",
 			"fontStyle": ""
 		},
