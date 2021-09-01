@@ -159,6 +159,15 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_workspace_rule("terminal.ansiBrightCyan", palette.ansi_bright_cyan());
     builder.add_workspace_rule("terminal.ansiBrightWhite", palette.base(BaseScale::Fg));
 
+    builder.add_workspace_rule(
+        "rust_analyzer.inlayHints.background",
+        palette.base(BaseScale::LighterBg),
+    );
+    builder.add_workspace_rule(
+        "rust_analyzer.inlayHints.foreground",
+        palette.base(BaseScale::DarkFg),
+    );
+
     builder.add_workspace_rules(
         &[
             "sideBar.border",

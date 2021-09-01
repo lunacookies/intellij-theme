@@ -48,6 +48,8 @@
 		"terminal.ansiBrightMagenta": "#ED7EED",
 		"terminal.ansiBrightCyan": "#00E5E5",
 		"terminal.ansiBrightWhite": "#A8B6C5",
+		"rust_analyzer.inlayHints.background": "#323333",
+		"rust_analyzer.inlayHints.foreground": "#79828B",
 		"sideBar.border": "#313131",
 		"activityBar.border": "#313131",
 		"editorGroup.border": "#313131",
