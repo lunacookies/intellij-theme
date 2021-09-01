@@ -139,6 +139,15 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::LightFg),
     );
 
+    builder.add_workspace_rules(
+        &["editorCursor.background", "terminalCursor.background"],
+        palette.base(BaseScale::Bg),
+    );
+    builder.add_workspace_rules(
+        &["editorCursor.foreground", "terminalCursor.foreground"],
+        palette.base(BaseScale::LightFg),
+    );
+
     builder.add_workspace_rule("terminal.foreground", palette.base(BaseScale::Fg));
 
     builder.add_workspace_rule("terminal.ansiBlack", palette.base(BaseScale::LightBg));
