@@ -139,6 +139,26 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::LightFg),
     );
 
+    builder.add_workspace_rule("terminal.foreground", palette.base(BaseScale::Fg));
+
+    builder.add_workspace_rule("terminal.ansiBlack", palette.base(BaseScale::LightBg));
+    builder.add_workspace_rule("terminal.ansiRed", palette.ansi_red());
+    builder.add_workspace_rule("terminal.ansiGreen", palette.ansi_green());
+    builder.add_workspace_rule("terminal.ansiYellow", palette.ansi_yellow());
+    builder.add_workspace_rule("terminal.ansiBlue", palette.ansi_blue());
+    builder.add_workspace_rule("terminal.ansiMagenta", palette.ansi_magenta());
+    builder.add_workspace_rule("terminal.ansiCyan", palette.ansi_cyan());
+    builder.add_workspace_rule("terminal.ansiWhite", palette.base(BaseScale::Fg));
+
+    builder.add_workspace_rule("terminal.ansiBrightBlack", palette.base(BaseScale::DarkFg));
+    builder.add_workspace_rule("terminal.ansiBrightRed", palette.ansi_bright_red());
+    builder.add_workspace_rule("terminal.ansiBrightGreen", palette.ansi_bright_green());
+    builder.add_workspace_rule("terminal.ansiBrightYellow", palette.ansi_bright_yellow());
+    builder.add_workspace_rule("terminal.ansiBrightBlue", palette.ansi_bright_blue());
+    builder.add_workspace_rule("terminal.ansiBrightMagenta", palette.ansi_bright_magenta());
+    builder.add_workspace_rule("terminal.ansiBrightCyan", palette.ansi_bright_cyan());
+    builder.add_workspace_rule("terminal.ansiBrightWhite", palette.base(BaseScale::Fg));
+
     builder.add_workspace_rules(
         &[
             "sideBar.border",

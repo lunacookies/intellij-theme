@@ -71,6 +71,54 @@ impl Palette {
     pub(crate) fn purple(&self) -> Oklch {
         oklch(0.6176412, 0.085667424, 313.57822)
     }
+
+    pub(crate) fn ansi_red(&self) -> Oklch {
+        oklch(0.65427667, 0.19467114, 25.222906)
+    }
+
+    pub(crate) fn ansi_green(&self) -> Oklch {
+        oklch(0.6112721, 0.14990547, 133.87198)
+    }
+
+    pub(crate) fn ansi_yellow(&self) -> Oklch {
+        oklch(0.6407205, 0.12850519, 94.13027)
+    }
+
+    pub(crate) fn ansi_blue(&self) -> Oklch {
+        oklch(0.63923806, 0.12909275, 243.93295)
+    }
+
+    pub(crate) fn ansi_magenta(&self) -> Oklch {
+        oklch(0.6338902, 0.12722933, 314.88364)
+    }
+
+    pub(crate) fn ansi_cyan(&self) -> Oklch {
+        oklch(0.6477781, 0.110605896, 194.79843)
+    }
+
+    pub(crate) fn ansi_bright_red(&self) -> Oklch {
+        oklch(0.6619153, 0.22514442, 21.791573)
+    }
+
+    pub(crate) fn ansi_bright_green(&self) -> Oklch {
+        oklch(0.72433686, 0.22107385, 138.65419)
+    }
+
+    pub(crate) fn ansi_bright_yellow(&self) -> Oklch {
+        oklch(0.8137701, 0.1668647, 94.43816)
+    }
+
+    pub(crate) fn ansi_bright_blue(&self) -> Oklch {
+        oklch(0.72313845, 0.1600398, 240.48105)
+    }
+
+    pub(crate) fn ansi_bright_magenta(&self) -> Oklch {
+        oklch(0.75472784, 0.19105218, 327.246)
+    }
+
+    pub(crate) fn ansi_bright_cyan(&self) -> Oklch {
+        oklch(0.8346787, 0.1425187, 194.79842)
+    }
 }
 
 #[derive(Debug, Clone, Copy)]
