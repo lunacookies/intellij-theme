@@ -115,6 +115,10 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         &["editorWidget.background", "editorWidget.border"],
         palette.base(BaseScale::BrighterBg),
     );
+    builder.add_workspace_rule(
+        "editorSuggestWidget.foreground",
+        palette.base(BaseScale::LightFg),
+    );
 
     builder.add_workspace_rules(
         &[
