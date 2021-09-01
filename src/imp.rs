@@ -98,6 +98,7 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         &[
             "tab.inactiveBackground",
             "editorGroupHeader.tabsBackground",
+            "editorGroupHeader.noTabsBackground",
             "tab.border",
         ],
         palette.base(BaseScale::BrightBg),
