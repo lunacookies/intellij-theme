@@ -8,29 +8,40 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: &Palette) {
     syntax_highlighting(builder, palette);
 }
 
-pub(crate) fn add_rules_goland(builder: &mut ThemeBuilder, palette: &Palette) {
-    builder.add_rules(
-        &[
-            Semantic("function"),
-            Semantic("method"),
-            Semantic("function.trait"),
-            Semantic("method.trait"),
-            Semantic("method.static"),
-        ],
-        palette.tan(),
-    );
+pub(crate) fn add_rules_intellij(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rules(
         &[
             Semantic("function.declaration"),
             Semantic("method.declaration"),
-            Semantic("function.trait.declaration"),
-            Semantic("method.trait.declaration"),
-            Semantic("method.static.declaration"),
+        ],
+        (palette.orange(), FontStyle::Inherit),
+    );
+    builder.add_rules(
+        &[Semantic("function.trait"), Semantic("method.trait")],
+        (palette.orange(), FontStyle::Italic),
+    );
+    builder.add_rules(
+        &[Semantic("function"), Semantic("method.static")],
+        FontStyle::Italic,
+    );
+
+    builder.add_rule(Semantic("property"), palette.purple());
+
+    builder.add_rule(Semantic("typeParameter"), palette.teal());
+
+    builder.add_rule(Semantic("macro"), FontStyle::BoldItalic);
+}
+
+pub(crate) fn add_rules_goland(builder: &mut ThemeBuilder, palette: &Palette) {
+    builder.add_rules(&[Semantic("function"), Semantic("method")], palette.tan());
+    builder.add_rules(
+        &[
+            Semantic("function.declaration"),
+            Semantic("method.declaration"),
         ],
         palette.dark_orange(),
     );
 
-    builder.add_rule(Semantic("builtinType"), palette.brown());
     builder.add_rules(
         &[
             Semantic("type"),
@@ -55,23 +66,23 @@ pub(crate) fn add_rules_goland(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.base(BaseScale::Fg),
     );
-
-    builder.add_rule(Semantic("property"), palette.base(BaseScale::Fg));
+    builder.add_rule(Semantic("builtinType"), palette.brown());
+    builder.add_rule(Semantic("typeParameter"), palette.teal());
 
     builder.add_rule(Semantic("selfKeyword"), palette.deep_blue());
 
     builder.add_rule(Semantic("namespace"), palette.avocado());
+
+    builder.add_rule(Semantic("macro"), palette.yellow());
 }
 
 pub(crate) fn add_rules_clion(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rules(
         &[
-            Semantic("function"),
-            Semantic("function.trait"),
-            Semantic("method.trait"),
-            Semantic("method.static"),
+            Semantic("function.declaration"),
+            Semantic("method.declaration"),
         ],
-        palette.base(BaseScale::Fg),
+        palette.orange(),
     );
 
     builder.add_rules(
@@ -87,11 +98,12 @@ pub(crate) fn add_rules_clion(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.lavender(),
     );
-
     builder.add_rules(
         &[Semantic("typeAlias"), Semantic("typeParameter")],
         palette.pale_lavender(),
     );
+
+    builder.add_rule(Semantic("property"), palette.purple());
 
     builder.add_rule(Semantic("macro"), palette.yellow());
 }
@@ -254,31 +266,12 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rules(
         &[
-            Semantic("function.declaration"),
-            Semantic("method.declaration"),
-        ],
-        (palette.orange(), FontStyle::Inherit),
-    );
-    builder.add_rules(
-        &[Semantic("function.trait"), Semantic("method.trait")],
-        (palette.orange(), FontStyle::Italic),
-    );
-    builder.add_rules(
-        &[Semantic("function"), Semantic("method.static")],
-        FontStyle::Italic,
-    );
-
-    builder.add_rule(Semantic("property"), palette.purple());
-    builder.add_rules(
-        &[
             Semantic("variable.constant"),
             Semantic("variable.static"),
             Semantic("enumMember"),
         ],
         (palette.purple(), FontStyle::Italic),
     );
-
-    builder.add_rule(Semantic("typeParameter"), palette.teal());
 
     builder.add_rule(Semantic("string"), palette.green());
     builder.add_rules(
@@ -293,8 +286,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         Semantic("comment.documentation"),
         (palette.bright_green(), FontStyle::Italic),
     );
-
-    builder.add_rule(Semantic("macro"), FontStyle::BoldItalic);
 
     builder.add_rule(Semantic("lifetime"), (palette.teal(), FontStyle::Italic));
     builder.add_rule(Semantic("label"), palette.bright_blue());

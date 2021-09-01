@@ -84,32 +84,6 @@
 			"foreground": "#CC7832",
 			"fontStyle": ""
 		},
-		"function.declaration": {
-			"foreground": "#FFC66D"
-		},
-		"method.declaration": {
-			"foreground": "#FFC66D"
-		},
-		"function.trait": {
-			"foreground": "#A8B6C5",
-			"fontStyle": ""
-		},
-		"method.trait": {
-			"foreground": "#A8B6C5",
-			"fontStyle": ""
-		},
-		"function": {
-			"foreground": "#A8B6C5",
-			"fontStyle": ""
-		},
-		"method.static": {
-			"foreground": "#A8B6C5",
-			"fontStyle": ""
-		},
-		"property": {
-			"foreground": "#9876AA",
-			"fontStyle": ""
-		},
 		"variable.constant": {
 			"foreground": "#9876AA",
 			"italic": true
@@ -121,10 +95,6 @@
 		"enumMember": {
 			"foreground": "#9876AA",
 			"italic": true
-		},
-		"typeParameter": {
-			"foreground": "#B9BCD1",
-			"fontStyle": ""
 		},
 		"string": {
 			"foreground": "#6A8759",
@@ -154,10 +124,6 @@
 			"foreground": "#629755",
 			"italic": true
 		},
-		"macro": {
-			"foreground": "#BBB529",
-			"fontStyle": ""
-		},
 		"lifetime": {
 			"foreground": "#20999D",
 			"italic": true
@@ -176,6 +142,14 @@
 		},
 		"unresolvedReference": {
 			"foreground": "#BC3F3C",
+			"fontStyle": ""
+		},
+		"function.declaration": {
+			"foreground": "#FFC66D",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#FFC66D",
 			"fontStyle": ""
 		},
 		"type": {
@@ -212,6 +186,18 @@
 		},
 		"typeAlias": {
 			"foreground": "#B9BCD1",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#B9BCD1",
+			"fontStyle": ""
+		},
+		"property": {
+			"foreground": "#9876AA",
+			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#BBB529",
 			"fontStyle": ""
 		},
 		"*.mutable": {

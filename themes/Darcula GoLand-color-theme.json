@@ -84,34 +84,6 @@
 			"foreground": "#CC7832",
 			"fontStyle": ""
 		},
-		"function.declaration": {
-			"foreground": "#E6B163",
-			"fontStyle": ""
-		},
-		"method.declaration": {
-			"foreground": "#E6B163",
-			"fontStyle": ""
-		},
-		"function.trait": {
-			"foreground": "#B09D79",
-			"fontStyle": ""
-		},
-		"method.trait": {
-			"foreground": "#B09D79",
-			"fontStyle": ""
-		},
-		"function": {
-			"foreground": "#B09D79",
-			"fontStyle": ""
-		},
-		"method.static": {
-			"foreground": "#B09D79",
-			"fontStyle": ""
-		},
-		"property": {
-			"foreground": "#A8B6C5",
-			"fontStyle": ""
-		},
 		"variable.constant": {
 			"foreground": "#9876AA",
 			"italic": true
@@ -123,10 +95,6 @@
 		"enumMember": {
 			"foreground": "#9876AA",
 			"italic": true
-		},
-		"typeParameter": {
-			"foreground": "#20999D",
-			"fontStyle": ""
 		},
 		"string": {
 			"foreground": "#6A8759",
@@ -156,10 +124,6 @@
 			"foreground": "#629755",
 			"italic": true
 		},
-		"macro": {
-			"bold": true,
-			"italic": true
-		},
 		"lifetime": {
 			"foreground": "#20999D",
 			"italic": true
@@ -180,24 +144,20 @@
 			"foreground": "#BC3F3C",
 			"fontStyle": ""
 		},
+		"function": {
+			"foreground": "#B09D79",
+			"fontStyle": ""
+		},
 		"method": {
 			"foreground": "#B09D79",
 			"fontStyle": ""
 		},
-		"function.trait.declaration": {
+		"function.declaration": {
 			"foreground": "#E6B163",
 			"fontStyle": ""
 		},
-		"method.trait.declaration": {
+		"method.declaration": {
 			"foreground": "#E6B163",
-			"fontStyle": ""
-		},
-		"method.static.declaration": {
-			"foreground": "#E6B163",
-			"fontStyle": ""
-		},
-		"builtinType": {
-			"foreground": "#CC7832",
 			"fontStyle": ""
 		},
 		"type": {
@@ -256,12 +216,24 @@
 			"foreground": "#A8B6C5",
 			"fontStyle": ""
 		},
+		"builtinType": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#20999D",
+			"fontStyle": ""
+		},
 		"selfKeyword": {
 			"foreground": "#4EADE5",
 			"fontStyle": ""
 		},
 		"namespace": {
 			"foreground": "#AFBF7E",
+			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#BBB529",
 			"fontStyle": ""
 		},
 		"*.mutable": {

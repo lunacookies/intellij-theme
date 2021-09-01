@@ -20,9 +20,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Darcula",
+        "label": "Darcula IntelliJ",
         "uiTheme": "vs-dark",
-        "path": "./themes/Darcula-color-theme.json"
+        "path": "./themes/Darcula IntelliJ-color-theme.json"
       },
       {
         "label": "Darcula GoLand",
