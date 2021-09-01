@@ -126,6 +126,19 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::LightFg));
 
     builder.add_workspace_rules(
+        &["titleBar.inactiveBackground", "titleBar.activeBackground"],
+        palette.base(BaseScale::BrightBg),
+    );
+    builder.add_workspace_rule(
+        "titleBar.inactiveForeground",
+        (palette.base(BaseScale::LightFg), 0x88),
+    );
+    builder.add_workspace_rule(
+        "titleBar.activeForeground",
+        palette.base(BaseScale::LightFg),
+    );
+
+    builder.add_workspace_rules(
         &[
             "sideBar.border",
             "activityBar.border",
@@ -133,6 +146,7 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
             "editorGroupHeader.border",
             "panel.border",
             "statusBar.border",
+            "titleBar.border",
         ],
         palette.base(BaseScale::LightBg),
     );
