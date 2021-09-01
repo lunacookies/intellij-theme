@@ -33,6 +33,11 @@
         "label": "Darcula CLion",
         "uiTheme": "vs-dark",
         "path": "./themes/Darcula CLion-color-theme.json"
+      },
+      {
+        "label": "Darcula AppCode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Darcula AppCode-color-theme.json"
       }
     ]
   }

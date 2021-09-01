@@ -108,6 +108,50 @@ pub(crate) fn add_rules_clion(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("macro"), palette.yellow());
 }
 
+pub(crate) fn add_rules_appcode(builder: &mut ThemeBuilder, palette: &Palette) {
+    builder.add_rule(Semantic("colon"), palette.brown());
+
+    builder.add_rules(
+        &[
+            Semantic("function"),
+            Semantic("method"),
+            Semantic("property"),
+        ],
+        palette.beige(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("type"),
+            Semantic("class"),
+            Semantic("struct:rust"),
+            Semantic("typeParameter"),
+        ],
+        palette.dark_cyan(),
+    );
+    builder.add_rules(
+        &[
+            Semantic("struct"),
+            Semantic("enum"),
+            Semantic("union"),
+            Semantic("builtinType"),
+        ],
+        palette.lavender(),
+    );
+    builder.add_rule(Semantic("typeAlias"), palette.pale_lavender());
+    builder.add_rule(Semantic("interface"), palette.sea_green());
+
+    builder.add_rule(Semantic("macro"), palette.yellow());
+
+    builder.add_rules(
+        &[
+            Semantic("macro.attribute"),
+            Semantic("builtinAttribute.attribute"),
+        ],
+        palette.brown(),
+    );
+}
+
 pub(crate) fn add_rules_last(builder: &mut ThemeBuilder) {
     builder.add_rule(Semantic("*.mutable"), FontStyle::Underline);
 }

@@ -1,0 +1,212 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "Darcula AppCode",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2B2B2B",
+		"editor.foreground": "#A8B6C5",
+		"foreground": "#BCBCBC",
+		"editor.lineHighlightBackground": "#313131",
+		"editorGutter.background": "#323333",
+		"editorLineNumber.foreground": "#60666C",
+		"editorLineNumber.activeForeground": "#919CA8",
+		"sideBar.background": "#3C3E40",
+		"activityBar.background": "#3C3E40",
+		"tab.inactiveBackground": "#3C3E40",
+		"editorGroupHeader.tabsBackground": "#3C3E40",
+		"editorGroupHeader.noTabsBackground": "#3C3E40",
+		"tab.border": "#3C3E40",
+		"tab.activeBackground": "#4E5155",
+		"tab.hoverBackground": "#313131",
+		"tab.inactiveForeground": "#BCBCBC",
+		"tab.activeForeground": "#BCBCBC",
+		"tab.activeBorderTop": "#4B8ACA",
+		"editorWidget.background": "#45484B",
+		"editorWidget.border": "#45484B",
+		"editorSuggestWidget.foreground": "#BCBCBC",
+		"statusBar.background": "#3C3E40",
+		"statusBar.debuggingBackground": "#3C3E40",
+		"statusBar.noFolderBackground": "#3C3E40",
+		"statusBar.foreground": "#BCBCBC",
+		"titleBar.inactiveBackground": "#3C3E40",
+		"titleBar.activeBackground": "#3C3E40",
+		"titleBar.inactiveForeground": "#BCBCBC88",
+		"titleBar.activeForeground": "#BCBCBC",
+		"editorCursor.background": "#2B2B2B",
+		"terminalCursor.background": "#2B2B2B",
+		"editorCursor.foreground": "#BCBCBC",
+		"terminalCursor.foreground": "#BCBCBC",
+		"terminal.foreground": "#A8B6C5",
+		"terminal.ansiBlack": "#313131",
+		"terminal.ansiRed": "#F0524F",
+		"terminal.ansiGreen": "#5C962C",
+		"terminal.ansiYellow": "#A68A0D",
+		"terminal.ansiBlue": "#3993D4",
+		"terminal.ansiMagenta": "#A771BF",
+		"terminal.ansiCyan": "#00A3A3",
+		"terminal.ansiWhite": "#A8B6C5",
+		"terminal.ansiBrightBlack": "#79828B",
+		"terminal.ansiBrightRed": "#FF4050",
+		"terminal.ansiBrightGreen": "#4FC414",
+		"terminal.ansiBrightYellow": "#E5BF00",
+		"terminal.ansiBrightBlue": "#1FB0FF",
+		"terminal.ansiBrightMagenta": "#ED7EED",
+		"terminal.ansiBrightCyan": "#00E5E5",
+		"terminal.ansiBrightWhite": "#A8B6C5",
+		"rust_analyzer.inlayHints.background": "#323333",
+		"rust_analyzer.inlayHints.foreground": "#79828B",
+		"editorIndentGuide.background": "#3C3E40",
+		"editorIndentGuide.activeBackground": "#4E5155",
+		"sideBar.border": "#313131",
+		"activityBar.border": "#313131",
+		"editorGroup.border": "#313131",
+		"editorGroupHeader.border": "#313131",
+		"panel.border": "#313131",
+		"statusBar.border": "#313131",
+		"titleBar.border": "#313131",
+		"editorOverviewRuler.border": "#3C3E40"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"comma": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"semicolon": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"variable.constant": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"variable.static": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"enumMember": {
+			"foreground": "#9876AA",
+			"italic": true
+		},
+		"string": {
+			"foreground": "#6A8759",
+			"fontStyle": ""
+		},
+		"escapeSequence": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"formatSpecifier": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#6897BB",
+			"fontStyle": ""
+		},
+		"character": {
+			"foreground": "#6897BB",
+			"fontStyle": ""
+		},
+		"comment": {
+			"foreground": "#79828B",
+			"fontStyle": ""
+		},
+		"comment.documentation": {
+			"foreground": "#629755",
+			"italic": true
+		},
+		"lifetime": {
+			"foreground": "#20999D",
+			"italic": true
+		},
+		"label": {
+			"foreground": "#467CDA",
+			"fontStyle": ""
+		},
+		"macro.attribute": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"builtinAttribute.attribute": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"unresolvedReference": {
+			"foreground": "#BC3F3C",
+			"fontStyle": ""
+		},
+		"colon": {
+			"foreground": "#CC7832",
+			"fontStyle": ""
+		},
+		"function": {
+			"foreground": "#C4B3A3",
+			"fontStyle": ""
+		},
+		"method": {
+			"foreground": "#C4B3A3",
+			"fontStyle": ""
+		},
+		"property": {
+			"foreground": "#C4B3A3",
+			"fontStyle": ""
+		},
+		"type": {
+			"foreground": "#769AA5",
+			"fontStyle": ""
+		},
+		"class": {
+			"foreground": "#769AA5",
+			"fontStyle": ""
+		},
+		"struct:rust": {
+			"foreground": "#769AA5",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#769AA5",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#B5B6E3",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#B5B6E3",
+			"fontStyle": ""
+		},
+		"union": {
+			"foreground": "#B5B6E3",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#B5B6E3",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#B9BCD1",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#82A094",
+			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#BBB529",
+			"fontStyle": ""
+		},
+		"*.mutable": {
+			"underline": true
+		}
+	},
+	"tokenColors": []
+}

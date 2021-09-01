@@ -25,5 +25,11 @@ fn main() -> io::Result<()> {
     imp::add_rules_last(&mut builder);
     builder.build().save()?;
 
+    let mut builder = ThemeBuilder::new("Darcula AppCode".to_string(), Type::Dark);
+    imp::add_rules(&mut builder, &palette);
+    imp::add_rules_appcode(&mut builder, &palette);
+    imp::add_rules_last(&mut builder);
+    builder.build().save()?;
+
     Ok(())
 }
