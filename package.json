@@ -38,6 +38,11 @@
         "label": "Darcula AppCode",
         "uiTheme": "vs-dark",
         "path": "./themes/Darcula AppCode-color-theme.json"
+      },
+      {
+        "label": "Rider",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rider-color-theme.json"
       }
     ]
   }

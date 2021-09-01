@@ -1,11 +1,19 @@
 use std::ops::Range;
 use tincture::{Hue, Oklch};
 
-pub(crate) struct Palette;
+pub(crate) enum Palette {
+    Normal,
+    GreyscaleBase,
+}
 
 impl Palette {
     pub(crate) fn base(&self, scale: BaseScale) -> Oklch {
-        oklch(scale.lightness(), scale.chroma(), 250.0)
+        let chroma = match self {
+            Self::Normal => scale.chroma(),
+            Self::GreyscaleBase => 0.0,
+        };
+
+        oklch(scale.lightness(), chroma, 250.0)
     }
 
     pub(crate) fn ui_blue(&self) -> Oklch {
@@ -185,7 +193,7 @@ impl BaseScale {
     }
 }
 
-fn oklch(l: f32, c: f32, h: f32) -> Oklch {
+pub(crate) fn oklch(l: f32, c: f32, h: f32) -> Oklch {
     Oklch {
         l,
         c,

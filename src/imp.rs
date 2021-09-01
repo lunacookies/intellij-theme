@@ -152,11 +152,71 @@ pub(crate) fn add_rules_appcode(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 }
 
+pub(crate) fn add_rules_rider(builder: &mut ThemeBuilder, palette: &Palette) {
+    let red = crate::palette::oklch(0.67977995, 0.20635639, 28.741695);
+    let brown = crate::palette::oklch(0.73571193, 0.08352805, 74.40954);
+    let grass_green = crate::palette::oklch(0.7568192, 0.13580728, 137.36841);
+    let green = crate::palette::oklch(0.7539199, 0.15139778, 160.86707);
+    let cyan = crate::palette::oklch(0.7635109, 0.08930822, 203.79019);
+    let blue = crate::palette::oklch(0.6777812, 0.13572988, 263.8467);
+    let purple = crate::palette::oklch(0.745359, 0.16016285, 302.83);
+    let violet = crate::palette::oklch(0.8549312, 0.09425437, 308.5686);
+    let pink = crate::palette::oklch(0.77019036, 0.11934556, 349.18854);
+
+    builder.add_rules(&[Semantic("keyword"), Semantic("builtinType")], blue);
+
+    builder.add_rules(&[Semantic("function"), Semantic("method")], green);
+
+    builder.add_rules(
+        &[
+            Semantic("type"),
+            Semantic("class"),
+            Semantic("struct"),
+            Semantic("enum"),
+            Semantic("union"),
+            Semantic("typeParameter"),
+            Semantic("typeAlias"),
+            Semantic("namespace"),
+        ],
+        purple,
+    );
+    builder.add_rule(Semantic("interface"), violet);
+
+    builder.add_rule(Semantic("enumMember"), violet);
+
+    builder.add_rule(Semantic("property"), cyan);
+
+    builder.add_rule(Semantic("string"), brown);
+    builder.add_rule(Semantic("escapeSequence"), pink);
+    builder.add_rule(Semantic("formatSpecifier"), purple);
+
+    builder.add_rules(&[Semantic("number"), Semantic("character")], pink);
+
+    builder.add_rule(Semantic("macro"), pink);
+
+    builder.add_rules(
+        &[Semantic("lifetime"), Semantic("label")],
+        (palette.base(BaseScale::LightFg), FontStyle::Bold),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("macro.attribute"),
+            Semantic("builtinAttribute.attribute"),
+        ],
+        blue,
+    );
+
+    builder.add_rule(Semantic("comment"), (grass_green, FontStyle::Italic));
+
+    builder.add_rule(Semantic("unresolvedReference"), (red, FontStyle::Bold));
+}
+
 pub(crate) fn add_rules_last(builder: &mut ThemeBuilder) {
     builder.add_rule(Semantic("*.mutable"), FontStyle::Underline);
 }
 
-fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
+pub(crate) fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_workspace_rule("editor.background", palette.base(BaseScale::Bg));
     builder.add_workspace_rule("editor.foreground", palette.base(BaseScale::Fg));
     builder.add_workspace_rule("foreground", palette.base(BaseScale::LightFg));
