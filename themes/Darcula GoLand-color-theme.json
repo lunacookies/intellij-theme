@@ -55,6 +55,8 @@
 		"terminal.ansiBrightWhite": "#A8B6C5",
 		"rust_analyzer.inlayHints.background": "#323333",
 		"rust_analyzer.inlayHints.foreground": "#79828B",
+		"editorIndentGuide.background": "#3C3E40",
+		"editorIndentGuide.activeBackground": "#4E5155",
 		"sideBar.border": "#313131",
 		"activityBar.border": "#313131",
 		"editorGroup.border": "#313131",

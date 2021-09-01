@@ -181,6 +181,15 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::DarkFg),
     );
 
+    builder.add_workspace_rule(
+        "editorIndentGuide.background",
+        palette.base(BaseScale::BrightBg),
+    );
+    builder.add_workspace_rule(
+        "editorIndentGuide.activeBackground",
+        palette.base(BaseScale::BrightestBg),
+    );
+
     builder.add_workspace_rules(
         &[
             "sideBar.border",
