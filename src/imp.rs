@@ -212,8 +212,9 @@ pub(crate) fn add_rules_rider(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("unresolvedReference"), (red, FontStyle::Bold));
 }
 
-pub(crate) fn add_rules_last(builder: &mut ThemeBuilder) {
+pub(crate) fn add_rules_last(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("*.mutable"), FontStyle::Underline);
+    builder.add_rule(Semantic("*.unsafe"), (palette.red(), FontStyle::Bold));
 }
 
 pub(crate) fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {

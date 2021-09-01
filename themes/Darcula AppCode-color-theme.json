@@ -206,6 +206,10 @@
 		},
 		"*.mutable": {
 			"underline": true
+		},
+		"*.unsafe": {
+			"foreground": "#BC3F3C",
+			"bold": true
 		}
 	},
 	"tokenColors": []
