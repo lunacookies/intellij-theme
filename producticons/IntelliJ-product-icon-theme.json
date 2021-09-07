@@ -1,0 +1,177 @@
+{
+  "fonts": [
+    {
+      "id": "intellij-icons",
+      "src": [
+        {
+          "path": "./intellij-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "symbol-class": {
+      "fontCharacter": "\\E800"
+    },
+    "symbol-struct": {
+      "fontCharacter": "\\E801"
+    },
+    "symbol-type-parameter": {
+      "fontCharacter": "\\E809"
+    },
+    "symbol-module": {
+      "fontCharacter": "\\E804"
+    },
+    "symbol-function": {
+      "fontCharacter": "\\E802"
+    },
+    "symbol-enum": {
+      "fontCharacter": "\\E803"
+    },
+    "symbol-method": {
+      "fontCharacter": "\\E804"
+    },
+    "symbol-interface": {
+      "fontCharacter": "\\E805"
+    },
+    "symbol-property": {
+      "fontCharacter": "\\E806"
+    },
+    "symbol-field": {
+      "fontCharacter": "\\E802"
+    },
+    "symbol-variable": {
+      "fontCharacter": "\\E807"
+    },
+    "symbol-parameter": {
+      "fontCharacter": "\\E806"
+    },
+    "symbol-constant": {
+      "fontCharacter": "\\E808"
+    },
+    "symbol-enum-member": {
+      "fontCharacter": "\\E803"
+    }
+
+    // "symbol-string": {
+    //   "fontCharacter": "\\EA46"
+    // },
+    // "symbol-module": {
+    //   "fontCharacter": "\\EA47"
+    // },
+    // "symbol-namespace": {
+    //   "fontCharacter": "\\EA47"
+    // },
+    // "symbol-package": {
+    //   "fontCharacter": "\\EA47"
+    // },
+    // "symbol-object": {
+    //   "fontCharacter": "\\EA47"
+    // },
+    // "symbol-array": {
+    //   "fontCharacter": "\\EA48"
+    // },
+    // "symbol-boolean": {
+    //   "fontCharacter": "\\EA49"
+    // },
+    // "symbol-color": {
+    //   "fontCharacter": "\\EA4B"
+    // },
+    // "symbol-class": {
+    //   "fontCharacter": "\\EA4A"
+    // },
+    // "symbol-constant": {
+    //   "fontCharacter": "\\EA4C"
+    // },
+    // "symbol-constructor": {
+    //   "fontCharacter": "\\EA4D"
+    // },
+    // "symbol-event": {
+    //   "fontCharacter": "\\EA4E"
+    // },
+    // "symbol-file": {
+    //   "fontCharacter": "\\EA4F"
+    // },
+    // "symbol-folder": {
+    //   "fontCharacter": "\\EA50"
+    // },
+    // "symbol-function": {
+    //   "fontCharacter": "\\EA51"
+    // },
+    // "symbol-method": {
+    //   "fontCharacter": "\\EA51"
+    // },
+    // "symbol-number": {
+    //   "fontCharacter": "\\EA52"
+    // },
+    // "symbol-numeric": {
+    //   "fontCharacter": "\\EA52"
+    // },
+    // "symbol-property": {
+    //   "fontCharacter": "\\EA53"
+    // },
+    // "symbol-enum": {
+    //   "fontCharacter": "\\EA54"
+    // },
+    // "symbol-enum-member": {
+    //   "fontCharacter": "\\EA55"
+    // },
+    // "symbol-field": {
+    //   "fontCharacter": "\\EA56"
+    // },
+    // "symbol-key": {
+    //   "fontCharacter": "\\EA46"
+    // },
+    // "symbol-text": {
+    //   "fontCharacter": "\\EA46"
+    // },
+    // "symbol-value": {
+    //   "fontCharacter": "\\EA57"
+    // },
+    // "symbol-null": {
+    //   "fontCharacter": "\\EA58"
+    // },
+    // "symbol-ruler": {
+    //   "fontCharacter": "\\EA59"
+    // },
+    // "symbol-unit": {
+    //   "fontCharacter": "\\EA59"
+    // },
+    // "symbol-interface": {
+    //   "fontCharacter": "\\EA5A"
+    // },
+    // "symbol-operator": {
+    //   "fontCharacter": "\\EA5B"
+    // },
+    // "symbol-snippet": {
+    //   "fontCharacter": "\\EA5C"
+    // },
+    // "symbol-variable": {
+    //   "fontCharacter": "\\EA5D"
+    // },
+    // "symbol-struct": {
+    //   "fontCharacter": "\\EA5E"
+    // },
+    // "symbol-structure": {
+    //   "fontCharacter": "\\EA5E"
+    // },
+    // "symbol-parameter": {
+    //   "fontCharacter": "\\EA60"
+    // },
+    // "symbol-type-parameter": {
+    //   "fontCharacter": "\\EA60"
+    // },
+    // "symbol-misc": {
+    //   "fontCharacter": "\\EA5F"
+    // },
+    // "symbol-reference": {
+    //   "fontCharacter": "\\EA61"
+    // },
+    // "symbol-keyword": {
+    //   "fontCharacter": "\\EA62"
+    // }
+  }
+}

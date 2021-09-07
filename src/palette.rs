@@ -147,6 +147,26 @@ impl Palette {
     pub(crate) fn ansi_bright_cyan(&self) -> Oklch {
         oklch(0.8346787, 0.1425187, 194.79842)
     }
+
+    pub(crate) fn type_icon(&self) -> Oklch {
+        oklch(0.7282886, 0.11905296, 225.98761)
+    }
+
+    pub(crate) fn function_icon(&self) -> Oklch {
+        oklch(0.7602619, 0.1342758, 9.718126)
+    }
+
+    pub(crate) fn interface_icon(&self) -> Oklch {
+        oklch(0.69615144, 0.17064784, 138.26198)
+    }
+
+    pub(crate) fn property_icon(&self) -> Oklch {
+        oklch(0.7519401, 0.13388576, 297.94778)
+    }
+
+    pub(crate) fn variable_icon(&self) -> Oklch {
+        oklch(0.8005755, 0.14743003, 75.65576)
+    }
 }
 
 #[derive(Debug, Clone, Copy)]

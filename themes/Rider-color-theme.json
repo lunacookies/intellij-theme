@@ -64,7 +64,20 @@
 		"panel.border": "#313131",
 		"statusBar.border": "#313131",
 		"titleBar.border": "#313131",
-		"editorOverviewRuler.border": "#3E3E3D"
+		"editorOverviewRuler.border": "#3E3E3D",
+		"symbolIcon.classForeground": "#40B6E09A",
+		"symbolIcon.structForeground": "#40B6E09A",
+		"symbolIcon.typeParameterForeground": "#40B6E09A",
+		"symbolIcon.moduleForeground": "#40B6E09A",
+		"symbolIcon.functionForeground": "#F98B9E9A",
+		"symbolIcon.enumeratorForeground": "#40B6E09A",
+		"symbolIcon.methodForeground": "#F98B9E9A",
+		"symbolIcon.interfaceForeground": "#62B5439A",
+		"symbolIcon.propertyForeground": "#B99BF89A",
+		"symbolIcon.fieldForeground": "#B99BF89A",
+		"symbolIcon.variableForeground": "#F4AF3D9A",
+		"symbolIcon.constantForeground": "#F4AF3D9A",
+		"symbolIcon.enumeratorMemberForeground": "#B99BF89A"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {

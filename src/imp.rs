@@ -356,6 +356,50 @@ pub(crate) fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         "editorOverviewRuler.border",
         palette.base(BaseScale::BrightBg),
     );
+
+    builder.add_workspace_rule("symbolIcon.classForeground", (palette.type_icon(), 0x9a));
+    builder.add_workspace_rule("symbolIcon.structForeground", (palette.type_icon(), 0x9a));
+    builder.add_workspace_rule(
+        "symbolIcon.typeParameterForeground",
+        (palette.type_icon(), 0x9a),
+    );
+    builder.add_workspace_rule("symbolIcon.moduleForeground", (palette.type_icon(), 0x9a));
+    builder.add_workspace_rule(
+        "symbolIcon.functionForeground",
+        (palette.function_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.enumeratorForeground",
+        (palette.type_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.methodForeground",
+        (palette.function_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.interfaceForeground",
+        (palette.interface_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.propertyForeground",
+        (palette.property_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.fieldForeground",
+        (palette.property_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.variableForeground",
+        (palette.variable_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.constantForeground",
+        (palette.variable_icon(), 0x9a),
+    );
+    builder.add_workspace_rule(
+        "symbolIcon.enumeratorMemberForeground",
+        (palette.property_icon(), 0x9a),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
