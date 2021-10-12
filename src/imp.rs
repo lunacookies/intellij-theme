@@ -210,6 +210,12 @@ pub(crate) fn add_rules_rider(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("comment"), (grass_green, FontStyle::Italic));
 
     builder.add_rule(Semantic("unresolvedReference"), (red, FontStyle::Bold));
+
+    builder.add_rule(Textmate("magit.header"), FontStyle::Bold);
+    builder.add_rule(Textmate("magit.subheader"), blue);
+    builder.add_rule(Textmate("magit.entity"), palette.base(BaseScale::DarkFg));
+    builder.add_rule(Textmate("markup.inserted"), green);
+    builder.add_rule(Textmate("markup.deleted"), red);
 }
 
 pub(crate) fn add_rules_last(builder: &mut ThemeBuilder, palette: &Palette) {
@@ -448,4 +454,10 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_rule(Semantic("unresolvedReference"), palette.red());
+
+    builder.add_rule(Textmate("magit.header"), FontStyle::Bold);
+    builder.add_rule(Textmate("magit.subheader"), palette.blue());
+    builder.add_rule(Textmate("magit.entity"), palette.base(BaseScale::DarkFg));
+    builder.add_rule(Textmate("markup.inserted"), palette.green());
+    builder.add_rule(Textmate("markup.deleted"), palette.red());
 }

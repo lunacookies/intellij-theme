@@ -197,5 +197,40 @@
 			"bold": true
 		}
 	},
-	"tokenColors": []
+	"tokenColors": [
+		{
+			"scope": "magit.header",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "magit.subheader",
+			"settings": {
+				"foreground": "#6C95EB",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "magit.entity",
+			"settings": {
+				"foreground": "#818181",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#39CC8F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#FE5647",
+				"fontStyle": ""
+			}
+		}
+	]
 }
