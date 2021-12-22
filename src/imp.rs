@@ -246,7 +246,11 @@ pub(crate) fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_workspace_rules(
-        &["sideBar.background", "activityBar.background"],
+        &[
+            "sideBar.background",
+            "panel.background",
+            "activityBar.background",
+        ],
         palette.base(BaseScale::BrightBg),
     );
 

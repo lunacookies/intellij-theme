@@ -11,6 +11,7 @@
 		"editorLineNumber.foreground": "#60666C",
 		"editorLineNumber.activeForeground": "#919CA8",
 		"sideBar.background": "#3C3E40",
+		"panel.background": "#3C3E40",
 		"activityBar.background": "#3C3E40",
 		"tab.inactiveBackground": "#3C3E40",
 		"editorGroupHeader.tabsBackground": "#3C3E40",
