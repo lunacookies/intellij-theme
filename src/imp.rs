@@ -333,11 +333,11 @@ pub(crate) fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_workspace_rule("terminal.ansiBrightWhite", palette.base(BaseScale::Fg));
 
     builder.add_workspace_rule(
-        "rust_analyzer.inlayHints.background",
+        "editorInlayHint.background",
         palette.base(BaseScale::LighterBg),
     );
     builder.add_workspace_rule(
-        "rust_analyzer.inlayHints.foreground",
+        "editorInlayHint.foreground",
         palette.base(BaseScale::DarkFg),
     );
 
